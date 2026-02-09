@@ -1,0 +1,11 @@
+.img{
+    flex: 250px;
+    height: 400px;
+    object-fit: cover;
+    /* object-position: center; */
+    transition: all 0.2s ease-in-out;
+}
+
+.img:hover{
+  transform: scale(1.02);
+}

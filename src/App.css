@@ -1,0 +1,68 @@
+@import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
+
+.App {
+  width: 100%;
+  height: 100vh;
+  min-height: fit-content;
+  background: linear-gradient(45deg, red, orange);
+}
+
+.App header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.App header h1 {
+  margin-left: 50px;
+  color: white;
+  text-shadow: 2px 2px 1px #0000006c;
+}
+
+.App header .search {
+  margin-right: 50px;
+  background-color: #ff00001d;
+  border-radius: 10px;
+  border: 1px solid #ff000042;
+  overflow: hidden;
+}
+
+.App header .search input {
+  background-color: transparent;
+  padding: 10px;
+  height: 25px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 14px;
+}
+
+.App header .search input::-webkit-input-placeholder {
+  color: #ffffff90;
+}
+
+.App header .search button {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.empty {
+  width: 100%;
+  height: 80vh;
+  color: white;
+  text-align: center;
+  align-content: center;
+}
