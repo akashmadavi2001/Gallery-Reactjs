@@ -22,7 +22,6 @@ function App() {
 
   console.log(info);
 
-
   return (
     <div className="App">
       <header>
@@ -33,7 +32,7 @@ function App() {
         </form>
       </header>
       <main>
-        {info?.length > 0 ? (
+       {info?.length > 0 ? (
           <>{info.map((img, id) => (<Img info={img} key={id} />))}</>
         ) : (
           <h3 className='empty'>Not found</h3>
